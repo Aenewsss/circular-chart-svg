@@ -1,0 +1,62 @@
+.circle-1 {
+    stroke: violet;
+    stroke-width: 14;
+    fill: rgba(238, 130, 238, 0.477);
+    stroke-dasharray: 630;
+    stroke-dashoffset: 630;
+    stroke-linecap: round;
+    animation: circular2 3s forwards;
+}
+.circle-2 {
+    stroke: rgb(130, 173, 238);
+    stroke-width: 14;
+    fill: rgba(130, 173, 238, 0.477);
+    stroke-dasharray: 630;
+    stroke-dashoffset: 630;
+    stroke-linecap: round;
+    animation: circular1 3s forwards;
+}
+
+.circle-3 {
+    stroke: rgb(130, 238, 164);
+    stroke-width: 14;
+    fill: rgba(130, 238, 164, 0.477);
+    stroke-dasharray: 630;
+    stroke-dashoffset: 630;
+    stroke-linecap: round;
+    animation: circular3 3s forwards;
+}
+
+text{
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@keyframes circular1 {
+    0% {
+        stroke-dashoffset: 630;
+    }
+
+    100% {
+        stroke-dashoffset: 157.5;
+    }
+}
+@keyframes circular2 {
+    0% {
+        stroke-dashoffset: 630;
+    }
+
+    100% {
+        stroke-dashoffset: 315;
+    }
+}
+@keyframes circular3 {
+    0% {
+        stroke-dashoffset: 630;
+    }
+
+    100% {
+        stroke-dashoffset: 472;
+    }
+}
+
